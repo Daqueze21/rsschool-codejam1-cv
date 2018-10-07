@@ -1,6 +1,90 @@
-html,
-body {
+html,body {
    margin: 0;
    padding: 0;
 }
+
+a {
+   text-decoration: none;
+   color: #fff;
+}
+
+li {
+   list-style: none;
+}
+
+body {
+   max-width: 1024px;
+   margin: 0 auto;
+   font-family: 'Open Sans', sans-serif;
+   background: url("img/dark-mosaic.png") #000;
+   font-size: 14px;
+}
+
+header {
+   width: 100%;
+   background-color: rgba(100, 100, 100, 0.5);
+   display: flex;
+}
+
+.header-logo {
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: 20px;
+   margin-top: 30px;
+   margin-left: 30px;
+}
+
+nav {
+   margin-top: 30px;
+   margin-left: 8%;
+}
+
+.nav-top a{ 
+   text-align: center;
+   padding: 10px 8px;
+}
+.nav-top a:hover {
+   border-bottom: #fff solid 2px;
+}
+
+.nav-top .icon {
+   display: none;
+}
+
+@media screen and (max-width: 500px) {
+.nav-top a {
+   display: none;
+ }
+
+.nav-top .icon {
+    float: right;
+    margin-right: 30px;
+    display:  block;
+    color: #fff;
+    font-size: 24px;
+ }
+
+nav {
+    width: 100%
+ }
+.nav-top.responsive {
+   position: relative;
+   top: 50px;
+}
+header .nav-top.responsive{
+   height: 340px;
+}
+.nav-top.responsive a.icon {
+   position: absolute;
+   top: -50px;
+   
+}
+.nav-top.responsive a{
+   float: none;
+   display:block;
+   text-align: left;
+}
+}
+
+
 
