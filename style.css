@@ -121,7 +121,7 @@ main .main-about {
 }
 /*minimal widht*/
 .mw-100 {
-   min-width: 100%;
+   min-width: 250px;
 }
 /*adaptation for short screens*/
 @media screen and (max-width: 600px) {
@@ -173,7 +173,7 @@ main .main-welcome p {
 }
 /*max width*/
 .mw-100 {
-   max-width: 100%;
+   max-width: 250px;
 }
 /*block main-about would be column direction when size of the screen less then 550*/
 .main-about {
