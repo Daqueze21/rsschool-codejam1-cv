@@ -7,55 +7,112 @@
    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
 </head>
 <body>
-   <div class="grid"> 
-      <header>
-         <div class="header-logo"><a href="index.html">My personal page</a></div>
-            <nav>
-               <div class="nav-top" id="navTop">   
-                  <a href="#summury">SUMMURY</a>
-                  <a href="#">SKILLS</a>
-                  <a href="#">CODE EXAMPLES</a>
-                  <a href="#">EXPERIENCE</a>
-                  <a href="#">EDUCATION</a>
-                  <a href="#">LANGUAGE</a>
-                  <a href="#">CONTACTS</a>
-                  <a href="#" id="menu" class="icon">&equiv;</a>
-               </div>      
-            </nav>
-      </header>
-   </div>
+      <div class="grid"> 
+            <header>
+                  <div class="header-logo"><a href="index.html">My personal page</a></div>
+                  <nav>
+                        <div class="nav-top" id="navTop">   
+                        <a href="#summury">SUMMURY</a>
+                        <a href="#skills">SKILLS</a>
+                        <a href="#code">CODE EXAMPLES</a>
+                        <a href="#">EXPERIENCE</a>
+                        <a href="#">EDUCATION</a>
+                        <a href="#">LANGUAGE</a>
+                        <a href="#">CONTACTS</a>
+                        <a href="#" id="menu" class="icon">&equiv;</a>
+                  </nav>
+                  </div>           
+            </header>
+      </div>
       <main>
-         <div class="main-welcome"> 
-            <h1>My name is <span class="name">Dzmitry Bryt</span></h1>
-            <h2><span class="welcome">Welcom</span> on my first self made page</h2>
-            <p>This is the first page of creation by myself, i hope you like it.</p>
-         </div>
-         <div class="wrapper">
-            <div class="main-about"> 
-               <div class="about-left" id="summury">
-                  <img class="mw-100" src="/img/man.png" alt="man" width=250px>   
-               </div>
-               <div class="about-right">
-                  <h1>SOME WORDS <span class="about"> ABOUT ME</span></h1>
-                  </p>My name is Dzmitry, I am 30 years old. 
-                  And i am a <span class="about"></span>LOSER</span>. This year I decided to
-                  change my profession. This is a big step in my life.</p>
-                  <h3>My goals:</h3>
-                  <ul>
-                     <li>Find a new profession for yourself</li>
-                     <li>Develop in a new profession</li>
-                     <li>Get a new interasting challenges</li>
-                  </ul>
-               </div>      
+            <div class="main-welcome"> 
+                  <h1>My name is <span class="name">Dzmitry Bryt</span></h1>
+                  <h2><span class="welcome">Welcome</span> on my first self made page</h2>
+                  <p>This is the first page of creation by myself, i hope you like it.</p>
             </div>
+            <div class="wrapper" id="summury">
+                  <div class="main-about"> 
+                        <div class="about-left" >
+                              <img class="mw-100" src="/img/man.png" alt="man" width=250px>   
+                        </div>
+                        <div class="about-right">
+                              <h1>SOME WORDS <span class="about"> ABOUT ME</span></h1>
+                              </p>My name is Dzmitry, I am 30 years old. 
+                              And i am a <span class="about"></span>LOSER</span>. This year I decided to
+                              change my profession. This is a big step in my life.</p>
+                              <h3>My goals:</h3>
+                              <ul>
+                                    <li>Find a new profession for yourself</li>
+                                    <li>Develop in a new profession</li>
+                                    <li>Get a new interasting challenges</li>
+                              </ul>
+                        </div>      
+                  </div>
+            </div>
+            <div class="main-skills" id="skills">
+                  <div class="skills-wrapper">
+                        <h1>MY SKILLS</h1>
+                        <div class="line"></div>
+                        <div class="skill-cards">
+                              <div class="card">
+                                    <div class="photo"><img src="/img/HTML_Logo.png" alt="html" height=120px></div>
+                                    <h4 class="name">HTML</h4>
+                                    <p class="full-name">HyperText Markup Language</p>
+                                    <p class="about-skills">This page is the first example of my ability to write html code.</p>
+                              </div>
+                              <div class="card">
+                                    <div class="photo"><img src="/img/css3-logo-8724075274-seeklogo.com.png" alt="css" height=120px></div>
+                                    <h4 class="name">CSS</h4>
+                                    <p class="full-name">Cascading Style Sheets</p>
+                                    <p class="about-skills">This page is the first example of my ability to use css code.</p>
+                              </div>
+                              <div class="card">
+                                    <div class="photo"><img src="/img/Js-logo.png" alt="JS" height=120px></div>
+                                    <h4 class="name">JavaScript</h4>
+                                    <p class="full-name">ECMAScript 6</p>
+                                    <p class="about-skills">Under development.</p>
+                              </div>
+                              <div class="card">
+                                    <div class="photo"><img src="/img/Vue.js_Logo.svg.png" alt="vue" height=120px></div>
+                                    <h4 class="name">Frameworks</h4>
+                                    <p class="full-name">React, Angular, Vue</p>
+                                    <p class="about-skills">Under development.</p>
+                              </div>
+                        </div>
+                  </div>                    
+            </div>
+            <div class="main-code" id="code">
+                  <div class="code-wrapper">
+                        <h1>CODE EXAMPLE</h1>
+                        <div class="line"></div>
+                        <p><i>The text in this section does not make sense because my knowledge is not enough to write some code. It was
+                        possible to simply write a text like lorem here, but I decided that it would be better, deal with it. This chapter created just for fun and play with some css grid.</i></p>
+                  </div>
+                  <div class="code-cards">
+                        <div class="code-card">
+                              <img src="/img/Twitterbird.png" alt="twitter" width="120px">
+                              <h4>Twitter</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod voluptas ratione excepturi optio sint sapiente placeat numquam voluptates ut blanditiis!</p>
+                        </div>
+                        <div class="code-card">
+                              <img src="/img/instagram-logo-color-512.png" alt="instagram" width="120px">
+                              <h4>INSTAGRAM</h4>
+                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio eligendi velit ratione! Dolorum reiciendis error voluptatum, quae quibusdam ratione quisquam.</p>
+                        </div>
+                        <div class="code-card">
+                              <img src="/img/facebookbutton.png" alt="fb" width="120px">
+                              <h4>FACEBOOK</h4>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nulla aspernatur consequuntur minima ab quis dolor voluptatibus quaerat labore perspiciatis.</p>
+                        </div>
+                        <div class="code-card">
+                              <img src="/img/VK.com-logo.svg-1.png" alt="vk" width="120px">
+                              <h4>VK</h4>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nulla aspernatur consequuntur minima ab quis dolor voluptatibus quaerat labore perspiciatis.</p>
+                        </div>
+                  </div>
             </div>
       </main>
       <div class="trash">main</div>
-  
-
-   <footer>
-      <div class="contacts"></div>
-   </footer> 
    <script src="script.js"></script>   
 </body>
 </html>
