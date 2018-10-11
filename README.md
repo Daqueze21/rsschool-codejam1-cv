@@ -4,4 +4,5 @@
 3. add summury add img;
 4. add skill block, add img;
 5. add code block add img;
-
+6. add experience block;
+7. add aducation block with gallery;
