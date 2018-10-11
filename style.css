@@ -66,7 +66,7 @@ main .main-welcome p{
 
 main .main-welcome h1 {
    color: rgb(100, 100, 100);
-   font-size: 44px;
+   font-size: 40px;
 }
 main .main-welcome h2 {
    color: rgb(100, 100, 100);
@@ -137,7 +137,7 @@ main .main-about {
       margin:0 auto;
 }
 .main-skills h1{
-      font-size: 44px;
+      font-size: 40px;
       padding-bottom: 20px;
 }
 .line{
@@ -183,7 +183,6 @@ main .main-about {
 .code-wrapper {
       width: 80%;
       margin: 0 auto;
-      
 }
 .code-cards {
       text-align: center;
@@ -194,6 +193,7 @@ main .main-about {
 .main-code h1{
       text-align: center;
       padding: 80px 0 20px 0;
+      font-size: 40px;
 }
 .main-code p{
       margin-bottom: 80px;
@@ -201,6 +201,52 @@ main .main-about {
 .code-card h4{
       margin:20px 0;
 }
+/*experience block*/
+.main-experience {
+      background: rgba(0, 0, 0, 0.1);
+      text-align: center;
+      color: rgb(100, 100, 100);
+      text-transform: uppercase;
+}
+.experience-wrapper {
+      width: 70%;
+      margin: 0 auto;
+}
+.main-experience h1{
+      margin: 100px 0 30px 0;
+      font-size: 40px;
+      margin-bottom: 40px;
+}
+.main-experience p{
+      margin-bottom: 150px;
+}
+/*education block*/
+.main-education{
+      background: rgba(255, 255, 255, 0.7);
+      color: #000;
+      text-align: center;
+      padding:80px 0 80px 0;
+}
+.education-wrapper{
+      width: 85%;
+      margin: 0 auto;
+}
+.education-wrapper h1{
+      margin-bottom: 40px;
+      font-size: 40px;
+}
+.education-wrapper p{
+      margin-bottom: 100px;  
+}
+.education-wrapper img{padding:5px; }
+.education-wrapper img:hover{
+      opacity: 0.8;
+}
+
+
+
+
+
 
 
 /*adaptation for short screens*/
@@ -282,5 +328,14 @@ main .main-welcome p {
 .code-cards {
       grid-template-columns: auto;
 }
-
+/*education block*/
+.line-1 img:not(:first-child){
+      display: none;
+}
+.line-2 img:not(:first-child) {
+      display: none;
+}
+.line-3 img:not(:first-child) {
+      display: none;
+}
 }
