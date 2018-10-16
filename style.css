@@ -42,7 +42,7 @@ nav {
    padding: 10px 8px;
 }
 .nav-top a:hover {
-   border-bottom: #fff solid 2px;
+   border-bottom: rgb(255, 123, 0) solid 2px;
 }
 .nav-top .icon {
    display: none;
@@ -67,6 +67,9 @@ main .main-welcome p{
 main .main-welcome h1 {
    color: rgb(100, 100, 100);
    font-size: 40px;
+}
+main .main-welcome h1::after {
+      display: none;
 }
 main .main-welcome h2 {
    color: rgb(100, 100, 100);
@@ -101,6 +104,9 @@ main .main-about {
    border-bottom: 3px solid rgb(255, 123, 0);
    font-size: 25px;
    font-weight:600; 
+}
+.about-right h1::after{
+ display: none;
 }
 .about {
    font-weight: 800;
@@ -140,13 +146,21 @@ main .main-about {
       font-size: 40px;
       padding-bottom: 20px;
 }
-.line{
+/*.line{
       width: 200px;
       height: 3px;
       background: rgb(255, 123, 0);
       position: relative;
       left: 40%;
       margin-bottom: 70px;
+}*/
+h1:after {
+      content: "";
+      display: block;
+      margin: 0 auto;
+      width: 150px;
+      padding-top: 30px;
+      border-bottom: 3px solid rgb(255, 123, 0);
 }
 .photo {
       background: #fff;
@@ -209,7 +223,7 @@ main .main-about {
       text-transform: uppercase;
 }
 .experience-wrapper {
-      width: 70%;
+      width: 60%;
       margin: 0 auto;
 }
 .main-experience h1{
@@ -238,16 +252,115 @@ main .main-about {
 .education-wrapper p{
       margin-bottom: 100px;  
 }
-.education-wrapper img{padding:5px; }
+.education-wrapper img{
+      padding:5px; 
+}
 .education-wrapper img:hover{
       opacity: 0.8;
 }
+/*language block*/
+.main-language {
+     padding:80px 0 80px 0;
+     background: rgba(0, 0, 0, 0.1);
+     color: rgb(100, 100, 100);
+}
+.language-wrapper {
+      width: 70%;
+      margin: 0 auto;
+}
+.main-language h1,p {
+      text-align: center;
+}
+.main-language h1{
+      font-size: 40px;    
+}
+.red {
+      color:red;
+}
+form p{
+      text-align: left;
+}
+.form-inputs {
+      margin-top:100px;
+      display: flex;
+}
+input {
+      width: 90%;
+      height: 30px;
+      font-size: 18px;
+      margin-bottom: 30px;
+}
+input:first-of-type {
+      margin-right: 300px;
+}
+textarea {
+      width: 100%;
+      height: 150px;
+}
+input, textarea {
+    border: 1px solid  black;
+    margin-top: 5px;
+}
+.button-block{
+      display: flex;
+      justify-content: flex-end;
+}
+input[type=submit] {
+      width: 125px;
+      height: 40px;
+      background: rgb(255, 123, 0);
+      margin-right: 0;
+      margin-top: 10px; 
+}
+/*contacts block*/
+footer {
+      width: 100%;
+      background-color: rgba(100, 100, 100, 0.5);
+      color: #fff;
+}
+.contacts-wrapper{
+      display: grid;
+      
+      grid-template-columns: 3fr 2fr;
+      padding: 30px 25px;
+      text-align: center
+}
+.foot-left{
+      margin: 0 auto;
+      margin-right: 50px;
+      align-self: center;
+      justify-content: center;
+}
+.foot-left p{
+      margin: 0 auto;
+      width: 80%;}
+.foot-left h2 {
+      display: inline-block;
+      font-size: 24px;
+      border-bottom: 2px solid rgb(255, 123, 0);
+      text-align: center;
+      
+}
+.foot-right li {
+      background: url(img/soc_icons.png) no-repeat;
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      margin:5px;
+      }
 
-
-
-
-
-
+.buttons .fb_foot {
+      background-position: -41px 0;
+}
+.buttons .tw_foot {
+      background-position: -84px 0;
+}
+.buttons .yt_foot {
+      background-position: -126px -40px;
+}
+.buttons .gh_foot {
+      background-position: -127px -81px;
+}
 
 /*adaptation for short screens*/
 @media screen and (max-width: 600px) {
@@ -337,5 +450,13 @@ main .main-welcome p {
 }
 .line-3 img:not(:first-child) {
       display: none;
+}
+/*language block*/
+.form-inputs {
+      flex-direction: column;
+}
+textarea {
+      width: 50%;
+      height: 100px;
 }
 }
