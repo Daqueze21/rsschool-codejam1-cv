@@ -312,6 +312,15 @@ input[type=submit] {
       margin-right: 0;
       margin-top: 10px; 
 }
+input {
+      padding-left: 10px;
+}
+textarea {
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 400;
+      font-size: 17px; 
+      padding: 10px;
+}
 /*contacts block*/
 footer {
       width: 100%;
@@ -361,6 +370,7 @@ footer {
 .buttons .gh_foot {
       background-position: -127px -81px;
 }
+
 
 /*adaptation for short screens*/
 @media screen and (max-width: 600px) {
