@@ -121,7 +121,7 @@ main .main-about {
    color: rgb(59, 59, 59);
 }
 .about-right li {
-   background: url(/img/bullet_ammunition_army_shoot-128.png) 0px no-repeat;
+   background: url(img/bullet_ammunition_army_shoot-128.png) 0px no-repeat;
    background-size: 20px;
    padding-left: 25px;
    margin-top: 10px;
